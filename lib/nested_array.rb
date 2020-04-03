@@ -1,7 +1,7 @@
 # Examples inspired by U. S. National Organic Standards
 
 ORGANIC_PRODUCE = [
-  "Strawberries",
+  "Strawberries", 
   "Potatoes",
   "Grapes",
   "Avocadoes",
@@ -25,7 +25,7 @@ def assembled_matrix
   # Make sure conventional produce is first, on the 'zeroth' / 'bottom' shelf
 end
 def sorted_matrix
-  return [[CONVENTIONAL_PRODUCE[4],CONVENTIONAL_PRODUCE[0],CONVENTIONAL_PRODUCE[1],CONVENTIONAL_PRODUCE[2],CONVENTIONAL_PRODUCE[3]],
+  return [[CONVENTIONAL_PRODUCE[4],CONVENTIONAL_PRODUCE[0],CONVENTIONAL_PRODUCE[2],CONVENTIONAL_PRODUCE[1],CONVENTIONAL_PRODUCE[3]],
   [ORGANIC_PRODUCE[4],ORGANIC_PRODUCE[3],ORGANIC_PRODUCE[2],ORGANIC_PRODUCE[1],ORGANIC_PRODUCE[0]]]
 end
 
